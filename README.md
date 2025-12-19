@@ -11,7 +11,6 @@ Bot ini dibangun dengan arsitektur modern menggunakan **FastAPI** dan **Uvicorn*
 * **🗄️ Database Terintegrasi:** Semua transaksi disimpan secara aman di PostgreSQL (Supabase).
 * **🔒 Multi-Tenant / Multi-User:** Data antar pengguna terisolasi (User A tidak bisa melihat data User B).
 * **📊 Laporan Keuangan:** Fitur `/report` untuk melihat total pemasukan, pengeluaran, dan sisa saldo secara realtime.
-* **🐳 Dockerized:** Siap dideploy di mana saja (Hugging Face, Render, Railway, VPS) menggunakan Docker.
 
 ## 🛠️ Tech Stack
 
@@ -20,7 +19,6 @@ Bot ini dibangun dengan arsitektur modern menggunakan **FastAPI** dan **Uvicorn*
 * **Backend Framework:** FastAPI & Uvicorn (untuk manajemen webhook/polling & health check)
 * **Database:** Supabase (PostgreSQL)
 * **Interface:** Python-Telegram-Bot
-* **Infrastructure:** Docker
 
 ## 📂 Struktur Project
 
